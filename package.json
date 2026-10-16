@@ -1,0 +1,16 @@
+{
+  "name": "inm420_sagunsubbatumrok_restapi_nasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "Subba",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

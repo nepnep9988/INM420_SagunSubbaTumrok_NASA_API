@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NASA Space Explorer</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- External JavaScript -->
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+
+<header class="hero">
+    <div class="hero-content">
+        <span class="hero-label">EXPLORE THE UNIVERSE</span>
+
+        <h1>
+            NASA <span>Space Explorer</span>
+        </h1>
+
+        <p>
+            A new perspective on the cosmos.
+            Discover the universe, one day at a time.
+        </p>
+
+        <a href="#apod-section" class="hero-link">
+            Start Exploring ↓
+        </a>
+    </div>
+</header>
+
+
+    <main>
+        
+<section class="apod-section" id="apod-section">
+    <h2>Astronomy Picture of the Day</h2>
+    <p>Explore NASA's incredible space discoveries.</p>
+
+    <!-- Date selection -->
+    <div class="date-search">
+        <label for="date-input">Choose a date:</label>
+
+        <input type="date" id="date-input">
+
+        <button id="search-btn" type="button">
+            Explore Space
+        </button>
+    </div>
+
+    <!-- NASA API results -->
+    <div id="apod-results">
+        <p id="status" role="status" aria-live="polite"></p>
+        <h3 id="apod-title"></h3>
+        <div id="apod-media"></div>
+        <p id="apod-date"></p>
+        <p id="apod-description"></p>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>Powered by NASA's APOD API</p>
+    </footer>
+
+</body>
+
+</html>
