@@ -1,7 +1,7 @@
 
 const API_KEY = "IjiOgwvb3qO6BIsqnT9KeWhgfebPKNkUPhzLj7Pd   ";
 
-// Select HTML elements
+// Select the HTML elements
 const dateInput = document.querySelector("#date-input");
 const searchBtn = document.querySelector("#search-btn");
 const apodTitle = document.querySelector("#apod-title");
@@ -21,13 +21,13 @@ dateInput.value = localToday;
 dateInput.max = localToday;
 dateInput.min = "1995-06-16";
 
-// Fetch NASA's Astronomy Picture of the Day
+// Fetch NASA's astronomy picture of the day
 async function getAPOD(date) {
     // Show loading message
     statusText.textContent = "Loading NASA's astronomy picture...";
     searchBtn.disabled = true;
 
-    // Clear previous results
+    // Clearing the previous results
     apodTitle.textContent = "";
     apodDate.textContent = "";
     apodDescription.textContent = "";

@@ -12,7 +12,7 @@ body {
     padding: 0;
 }
 
-/* General Styling */
+/* some general styling */
 body {
     min-height: 100vh;
     font-family: Arial, sans-serif;
@@ -27,7 +27,7 @@ img {
 }
 
 
-/* Hero Section */
+/* Hero section main */
 .hero {
     position: relative;
     min-height: 420px;
@@ -138,7 +138,7 @@ img {
     scroll-margin-top: 20px;
 }
 
-/* Mobile Hero */
+/* Mobile hero design*/
 @media (max-width: 600px) {
     .hero {
         min-height: 300px;
@@ -155,7 +155,7 @@ img {
 }
 
 
-/* Main Content */
+/* Main content */
 main {
     width: 90%;
     max-width: 1000px;
@@ -178,7 +178,7 @@ section p {
     color: #b8c5df;
 }
 
-/* Footer with Earth Background */
+/* Footer with earth background */
 footer {
     position: relative;
     min-height: 460px;
@@ -205,7 +205,7 @@ footer {
     color: #ffffff;
 }
 
-/* Footer Text */
+/* Footer text */
 footer p {
     position: relative;
     z-index: 1;
@@ -218,9 +218,9 @@ footer p {
 
 
 
-/* Responsive Design */
+/* Responsive design */
 @media (max-width: 600px) {
-    /* Hero Section */
+    /* Hero section */
     .hero {
         min-height: 300px;
         padding: 60px 20px;
@@ -234,7 +234,7 @@ footer p {
         font-size: 15px;
     }
 
-    /* Main Content */
+    /* Main content */
     main {
         width: 95%;
         margin: 20px auto;
@@ -250,7 +250,7 @@ footer p {
 }
 
     
-/* Date Picker and Search Button */
+/* date picker and search button */
 .date-search {
     display: flex;
     justify-content: center;
@@ -284,7 +284,7 @@ footer p {
     background-color: #7696ff;
 }
 
-/* NASA Image */
+/* NASA image */
 #apod-media img {
     display: block;
     width: 100%;
@@ -294,7 +294,7 @@ footer p {
     margin: 25px 0;
 }
 
-/* NASA Description */
+/* NASA description */
 #apod-description {
     text-align: left;
     line-height: 1.8;
